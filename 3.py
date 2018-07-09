@@ -5,4 +5,4 @@ if a in ('a','e','i','o','u'):
 elif a in f:
         print("consonant")
 else:
-    print("invalid input")
+    print("invalid")
