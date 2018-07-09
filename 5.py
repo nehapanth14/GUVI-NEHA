@@ -1,9 +1,7 @@
-num1=float(input("enter the first number:"))
-num2=float(input("enter the second number:"))
-num3=float(input("enter the third number:"))
-if((num1>num2)and(num1>num3)):
-    print(num1)
-elif((num2>num1)and(num2>num3)):
-    print(num2)
+a,b,c = map(int, raw_input().split())
+if((a>=b)and(a>=c)):
+    print(a)
+elif((b>=a)and(b>=c)):
+    print(b)
 else:
-    print(num3)
+    print(c)
