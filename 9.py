@@ -1,5 +1,4 @@
-a=input("enter the first number:")
-b=input("enter the second number:")
+a, b = map(int, raw_input().split())
 c=range(1,a+1)
 print c
 sum=0
