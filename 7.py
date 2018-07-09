@@ -1,3 +1,3 @@
-a=input("enter a number")
+a=input("")
 for i in range(a):
-    print("hello world")
+    print("Hello")
