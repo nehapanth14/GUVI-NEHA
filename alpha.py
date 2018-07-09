@@ -1,7 +1,7 @@
-ch = input("Enter a character: ")
+ch =raw_input("")
 if((ch>='a' and ch<= 'z') or (ch>='A' and ch<='Z')):
-    print("YES")
+    print("yes")
 else:
-        print("NO")
+        print("No")
 
 
